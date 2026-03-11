@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <script src="script.js"></script>
+        <title>My Webpage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="header">
+            <h1>BEARS!</h1>
+        </div>
+
+        <div class="container ">
+            <div class="section mb-4">
+                <h2>
+                    About Bears
+                </h2>
+                <p>
+                    Bears are carnivoran mammals of the family Ursidae. They are classified as caniforms, or doglike carnivorans. Although only eight species of bears are extant, they are widespread, appearing in a wide variety of habitats throughout most of the Northern Hemisphere and partially in the Southern Hemisphere. Bears are found on the continents of North America, South America, and Eurasia. Common characteristics of modern bears include large bodies with stocky legs, long snouts, small rounded ears, shaggy hair, plantigrade paws with five nonretractile claws, and short tails.
+                </p>
+                <p>
+                    While the polar bear is mostly carnivorous, and the giant panda is mostly herbivorous, the remaining six species are omnivorous with varying diets. With the exception of courting individuals and mothers with their young, bears are typically solitary animals. They may be diurnal or nocturnal, and they have an excellent sense of smell. Despite their heavy build and awkward gait, they are adept runners, climbers, and swimmers. Bears use shelters, such as caves and logs, as their dens; most species occupy their dens during the winter for a long period of hibernation, up to 100 days.
+                </p>
+                <p>
+                    Bears have been hunted since prehistoric times for their meat and fur. They have also been used for bear-baiting and other forms of entertainment, such as being made to dance. With their powerful physical presence, they play a prominent role in the arts, mythology, and other cultural aspects of various human societies. In modern times, bears have come under pressure through encroachment on their habitats and illegal trade in bear parts, including the Asian bile bear market. The IUCN lists six bear species as vulnerable or endangered, and even least concern species, such as the brown bear, are at risk of extirpation in certain countries. The poaching and international trade of these most threatened populations are prohibited, but still ongoing.
+                </p>
+            </div>
+            <div class="large-gallery">
+                <img src="pics/brown.jpg" alt="Brown Bear" class="img-fluid">
+                <img src="pics/POLAR.jpg" alt="Polar Bear" class="img-fluid">
+                <img src="pics/BLACK.jpg" alt="Black Bear" class="img-fluid">
+                <img src="pics/PANDA.jpg" alt="Panda Bear" class="img-fluid">
+            </div>
+            <div class="section">
+                <p>
+                    Bears are generally bulky and robust animals with short tails. They are sexually dimorphic with regard to size, with males typically being larger. Larger species tend to show increased levels of sexual dimorphism in comparison to smaller species. Relying as they do on strength rather than speed, bears have relatively short limbs with thick bones to support their bulk. The shoulder blades and the pelvis are correspondingly massive. The limbs are much straighter than those of the big cats as there is no need for them to flex in the same way due to the differences in their gait. The strong forelimbs are used to catch prey, excavate dens, dig out burrowing animals, turn over rocks and logs to locate prey, and club large creatures.
+                </p>
+            </div>
+                <div class="container">
+                    <div class="section">
+                        <h2>Multiple Choice </h2>
+                        <hr>
+                        <h3>what are Polar Bears' hair color?</h3>
+                        <button id="a" onclick="achoice()">a. white</button>
+                        <button id="b" onclick="bchoice()">b. black</button>
+                        <button id="c" onclick="cchoice()">c. brown</button>
+                        <button id="d" onclick="dchoice()">d. seethrough</button>
+                        <hr>
+                        <h4 id="correctness">answer is...</h4>
+                        <script>
+                        </script>
+                    </div>
+                <div class="section">
+                    <h2>Free Response</h2>
+                    <hr>
+                    <h3>where do Polar Bears live?</h3>
+                    <form >
+                        <input id="answer" name="answer" type="text" placeholder="Answer (hint it is one word)" autocomplete="off">
+                        <button type="button" id="submit" onclick="answered()">Submit Answer</button>
+                        <h4 id="correctnesses"></h4>
+                        <script>
+                        </script>
+                    </form>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">Bears</a>
+
+                    <div class="navbar-nav">
+                    <a class="nav-link" href="brown.html">Brown Bear</a>
+                    <a class="nav-link" href="polar.html">Polar Bear</a>
+                    <a class="nav-link" href="black.html">Black Bear</a>
+                    <a class="nav-link" href="panda.html">Panda Bear</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </body>
+</html>

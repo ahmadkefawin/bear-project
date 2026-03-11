@@ -1,0 +1,44 @@
+body {
+    background-color: #fff;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+
+.header {
+    background-color: #477bff;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.section {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.large-gallery {
+    text-align: center;
+}
+
+.large-gallery img {
+    width: 250px;
+    height: auto;
+    margin: 10px;
+}
+.caption{
+    text-align: center;
+}
+.img-gallery {
+    text-align: center;
+}
+
+.img-gallery img {
+    width: 100%;
+    max-width:500px;
+    height: auto;
+}
